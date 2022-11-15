@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | News homepage</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+  <div class="shadow"></div>
+
+  <div class="wrapper">
+    <nav class="nav wrapper">
+      <img src="img/logo.svg" alt="Logo" aria-hidden="true" class="nav__logo">
+      <button class="nav__btn">
+        <img src="img/icon-menu.svg" alt="Ikona nawigacji" aria-hidden="true" class="nav__btn-menu">
+        <img src="img/icon-menu-close.svg" alt="Ikona nawigacji" aria-hidden="true" class="nav__btn-menu-close nav__btn--hidden">
+      </button>
+
+      <div class="nav__items">
+        <a href="#home" class="nav__item">Home</a>
+        <a href="#new" class="nav__item">New</a>
+        <a href="#popular" class="nav__item">Popular</a>
+        <a href="#trending" class="nav__item">Trending</a>
+        <a href="#categories" class="nav__item">Categories</a>
+      </div>
+    </nav>
+
+
+    <div class="bigheader">
+      <header class="header">
+
+        <div class="header__img">
+        </div>
+
+        <div class="header__content">
+          <h1 class="header__content-title"><a href="#">The Bright Future of Web 3.0?</a></h1>
+
+          <div class="header__content-right">
+            <p class="header__content-right-text">We dive into the next evolution of the web that claims to put the
+              power
+              of the
+              platforms
+              back into the hands of the people. But is it really fulfilling its promise?</p>
+            <button class="header__content-right-btn"><a href="#">Read more</a></button>
+          </div>
+
+        </div>
+
+      </header>
+
+
+      <aside class="aside">
+        <h2 class="aside__heading">New</h2>
+
+        <div class="aside__news">
+          <h3 class="aside__news-title"><a href="#">Hydrogen VS Electric Cars</a></h3>
+          <p class="aside__news-text"> Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+
+        <div class="aside__news">
+          <h3 class="aside__news-title"><a href="#">The Downsides of AI Artistry</a></h3>
+          <p class="aside__news-text">What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+
+        <div class="aside__news">
+          <h3 class="aside__news-title"><a href="#">Is VC Funding Drying Up?</a></h3>
+          <p class="aside__news-text">Private funding by VC firms is down 50% YOY. We take a look at what that means.
+          </p>
+        </div>
+
+      </aside>
+    </div>
+
+    <section class="section wrapper">
+
+      <article class="section__box">
+        <div class="section__box-img"><img src="img/image-retro-pcs.jpg" alt="Console game" aria-hidden="true">
+        </div>
+        <div class="section__box-right">
+          <p class="section__box-right-number">01</p>
+          <h4 class="section__box-right-title"><a href="#">Reviving Retro PCs</a></h4>
+          <p class="section__box-right-text">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </article>
+
+      <article class="section__box">
+        <div class="section__box-img"><img src="img/image-top-laptops.jpg" alt="Lightened keyboard buttons" aria-hidden="true">
+        </div>
+        <div class="section__box-right">
+          <p class="section__box-right-number">02</p>
+          <h4 class="section__box-right-title"><a href="#">Top 10 Laptops of 2022</a></h4>
+          <p class="section__box-right-text"> Our best picks for various needs and budgets.</p>
+        </div>
+      </article>
+
+      <article class="section__box">
+        <div class="section__box-img"><img src="img/image-gaming-growth.jpg" alt="Gamepad hovering over hand" aria-hidden="true">
+        </div>
+        <div class="section__box-right">
+          <p class="section__box-right-number">03</p>
+          <h4 class="section__box-right-title"><a href="#">The Growth of Gaming</a></h4>
+          <p class="section__box-right-text"> How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </article>
+
+    </section>
+
+    <footer class="footer">
+      <p class="footer__text">&copy <span class="footer__text--bold">W.</span> | 2022</p>
+      <div><p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/martinafm">Martyna</a>.</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
