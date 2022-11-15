@@ -19,10 +19,10 @@ Project is a challenge by Frontend Mentor. Project is a main homepage for some w
 Project is coded with HTML5 and CSS3, using SASS and BEM technology. Additionaly, there is some Javascript code for toggling the mobile menu.
 
 ## Features
--On the website users are able to:
--- View the optimal layout for the interface depending on their device's screen size
--- See hover and focus states for all interactive elements on the page
--- Bonus: Toggle the mobile menu (required some JavaScript)
+- On the website users are able to:
+  - View the optimal layout for the interface depending on their device's screen size
+  - See hover and focus states for all interactive elements on the page
+  - Bonus: Toggle the mobile menu (required some JavaScript)
 - Project is created following the Mobile First principle and is also fully responsible at different breakpoints.
 
 ## Contact 
